@@ -49,6 +49,14 @@ namespace Assignment_3
             //Console.WriteLine($"length afterward: {prices.Length}");
             #endregion
 
+            #region Write a method bool TryGetPrice(string title, out double price) that returns true and sets price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0.Call it and print the price if found
+            //double price;
+            //bool found;
+            //found = TryGetPrice("Clean Code", out price);
+            //if (found) Console.WriteLine($"Price: {price}");
+            //else Console.WriteLine("not found");
+            #endregion
+
         }
 
         //public static void PrintWelcomeMessage()
@@ -80,5 +88,21 @@ namespace Assignment_3
         //{
         //    prices = new double[] { 10.0, 12.5, 15.0 };
         //}
+
+        //public static bool TryGetPrice(string title, out double price)
+        //{
+        //    if ( title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        price = 0.0;
+        //        return false;
+        //    }
+        //}
+
+
     }
 }
