@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Drawing;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_3
 {
@@ -42,6 +43,12 @@ namespace Assignment_3
             //Console.WriteLine($"pages afterward: {pages}"); // Total pages after bonus = 450, because the method called by pass by reference so the main value changes
             #endregion
 
+            #region Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length afterward.
+            //double[] prices = { 25.5, 40.0 };
+            //ReplaceArray(ref prices);
+            //Console.WriteLine($"length afterward: {prices.Length}");
+            #endregion
+
         }
 
         //public static void PrintWelcomeMessage()
@@ -67,6 +74,11 @@ namespace Assignment_3
         //public static void AddBonusPagesByRef(ref int pages)
         //{
         //    pages += 50;
+        //}
+
+        //public static void ReplaceArray(ref double[] prices)
+        //{
+        //    prices = new double[] { 10.0, 12.5, 15.0 };
         //}
     }
 }
