@@ -24,6 +24,12 @@ namespace Assignment_3
             //PrintBookTitle("Clean Code");
             #endregion
 
+            #region Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable int pages = 400; and print pages afterward. What do you expect to see, and why?
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine($"pages afterward: {pages}"); //Total pages after bonus = 400, bacause the method called by pass by value so the main value doesnot change
+            #endregion
+
         }
 
         //public static void PrintWelcomeMessage()
@@ -34,6 +40,11 @@ namespace Assignment_3
         //public static void PrintBookTitle(string title)
         //{
         //    Console.WriteLine($"Book Title: {title}");
+        //}
+
+        //public static void AddBonusPages(int pages)
+        //{
+        //    pages += 50;
         //}
     }
 }
