@@ -36,7 +36,11 @@ namespace Assignment_3
             //Console.WriteLine($"price[0] afterward: {prices[0]}"); // Total price after discount = 20.5, because the method called by pass by value but the parameters are reference type so the main value changes
             #endregion
 
-
+            #region Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref. Call it and print pages afterward. How is the result different from question 5 ?
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine($"pages afterward: {pages}"); // Total pages after bonus = 450, because the method called by pass by reference so the main value changes
+            #endregion
 
         }
 
@@ -58,6 +62,11 @@ namespace Assignment_3
         //public static void ApplyDiscount(double[] prices)
         //{
         //    prices[0] -= 5.0;
+        //}
+
+        //public static void AddBonusPagesByRef(ref int pages)
+        //{
+        //    pages += 50;
         //}
     }
 }
