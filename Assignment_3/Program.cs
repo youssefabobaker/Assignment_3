@@ -57,6 +57,12 @@ namespace Assignment_3
             //else Console.WriteLine("not found");
             #endregion
 
+            #region Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call it once with only a title, and once passing both a title and pages.
+            //PrintBookInfo("Clean Code");
+            //PrintBookInfo("Clean Code", 400);
+            #endregion
+
+
         }
 
         //public static void PrintWelcomeMessage()
@@ -103,6 +109,9 @@ namespace Assignment_3
         //    }
         //}
 
-
+        //public static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"title: {title}, Pages: {pages}");
+        //}
     }
 }
