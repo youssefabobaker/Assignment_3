@@ -30,6 +30,14 @@ namespace Assignment_3
             //Console.WriteLine($"pages afterward: {pages}"); //Total pages after bonus = 400, bacause the method called by pass by value so the main value doesnot change
             #endregion
 
+            #region Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect tosee, and why? 
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine($"price[0] afterward: {prices[0]}"); // Total price after discount = 20.5, because the method called by pass by value but the parameters are reference type so the main value changes
+            #endregion
+
+
+
         }
 
         //public static void PrintWelcomeMessage()
@@ -45,6 +53,11 @@ namespace Assignment_3
         //public static void AddBonusPages(int pages)
         //{
         //    pages += 50;
+        //}
+
+        //public static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5.0;
         //}
     }
 }
