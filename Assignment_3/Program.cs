@@ -16,6 +16,15 @@ namespace Assignment_3
             //Console.WriteLine(shelfCopies[1, 0]);
             #endregion
 
+            #region Write a method called PrintWelcomeMessage that takes no parameters and prints "Welcome to the Library!".Call it from Main.
+            //PrintWelcomeMessage();
+            #endregion
+
         }
+
+        //public static void PrintWelcomeMessage()
+        //{
+        //    Console.WriteLine("Welcome to the Library!");
+        //}
     }
 }
